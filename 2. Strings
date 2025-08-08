@@ -1,0 +1,12 @@
+2. STRING
+Input:
+sentence = "Artificial Intelligence and Machine Learning are future technologies"
+Questions:
+1.	Count total number of vowels.
+2.	Convert the sentence to a list of words and print them.
+3.	Find the longest word in the sentence.
+4.	Reverse the sentence word-by-word.
+5.	Count the number of times letter 'a' or 'A' appears.
+6.	Replace "Machine" with "Deep" and print the new sentence.
+7.	Check if the word "Learning" exists in the sentence.
+
