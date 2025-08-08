@@ -10,3 +10,39 @@ Questions:
 6.	Replace "Machine" with "Deep" and print the new sentence.
 7.	Check if the word "Learning" exists in the sentence.
 
+
+CODE:
+
+
+sentence = "Artifical Intelligence and Machine Learning are future technologies"
+
+#1. Count total number of vowels
+vowels = "aeiouAEIOU"
+vowel_count = sum(1 for ch in sentence if ch in vowels)
+print("Total number of vowels:", vowel_count)
+
+#2. Convert the sentence to a list of words and print them
+words = sentence.split()
+print("List of words:", words)
+
+#3. Find the longest word in the sentnce
+longest_word = max(words, key=len)
+print("longest word:", longest_word)
+
+#4. Reverse the sentence word-by-word
+reversed_sentence = " ".join(reversed(words))
+print("Reversed Sentnece: ", reversed_sentence)
+
+#5. Count the number of times letter 'a' or 'A' appears
+a_count = sum(1 for ch in sentence if ch.lower() == 'a')
+print("number of 'a' or 'A':", a_count)
+
+# 6. Replace "Machine" with "Deep" and print the new sentence
+new_sentence = sentence.replace("Machine", "Deep")
+print("New sentence:", new_sentence)
+
+#7. Check if the word "Learning" exists in the sentence
+exists = "Learning" in words
+print("Does 'Learning' exist in the sentence?", exists)
+
+
